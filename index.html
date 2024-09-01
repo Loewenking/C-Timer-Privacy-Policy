@@ -62,6 +62,16 @@
             text-align: right;
             margin-top: -20px;
         }
+        .language-selector {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .language-selector a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #35424a;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
@@ -79,6 +89,14 @@
     </header>
 
     <div class="container">
+        <div class="language-selector">
+            <a href="#tr">Türkçe</a> | 
+            <a href="#en">English</a> | 
+            <a href="#de">Deutsch</a>
+        </div>
+    </div>
+
+    <div id="tr" class="container">
         <div class="content">
             <div class="language">Türkçe</div>
             <h1>Gizlilik Politikası</h1>
@@ -119,7 +137,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div id="en" class="container">
         <div class="content">
             <div class="language">English</div>
             <h1>Privacy Policy</h1>
@@ -151,7 +169,7 @@
             <h2>Children's Privacy</h2>
             <p>C Timer does not knowingly collect personal information from children under the age of 13. If a parent or guardian becomes aware that their child has provided us with information without their consent, they should contact us.</p>
 
-            <h2>Changes to the Privacy Policy</h2>
+            <h2>Changes to the Privacy Policy</h>
             <p>C Timer may update its privacy policy from time to time. When any changes are made, this page will be updated, and users will be informed of any significant changes.</p>
 
             <h2>Contact</h2>
@@ -160,7 +178,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div id="de" class="container">
         <div class="content">
             <div class="language">Deutsch</div>
             <h1>Datenschutzerklärung</h1>
